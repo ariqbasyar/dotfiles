@@ -118,25 +118,3 @@ alias less="less -Rc"
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-alias exp="explorer.exe ."
-# BLACK=$(tput setaf 0)
-# RED=$(tput setaf 1)
-# GREEN=$(tput setaf 2)
-# YELLOW=$(tput setaf 3)
-# BLUE=$(tput setaf 4)
-# MAGENTA=$(tput setaf 5)
-# CYAN=$(tput setaf 6)
-# WHITE=$(tput setaf 7)
-# NORMAL=$(tput sgr0)
-# PS1="\[${CYAN}\][\$(date +'%A, %d-%m-%Y\[${WHITE}\]||\
-# \[${RED}\]%I:%M%p %Z')]\[${WHITE}\][\[${BLUE}\]\h\[${YELLOW}\] of \
-# \[${GREEN}\]\u:\[${MAGENTA}\]\w\[${WHITE}\]]\[${RED}\]\$\[${NORMAL}\] "
-
-
-
-# PS1="[\$(date +'%A, %d-%m-%Y||%I:%M%p %Z')][\h of \u:\w]\$ "
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/ariqbasyar/.sdkman"
-[[ -s "/home/ariqbasyar/.sdkman/bin/sdkman-init.sh" ]] && source "/home/ariqbasyar/.sdkman/bin/sdkman-init.sh"
