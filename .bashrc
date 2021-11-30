@@ -3,7 +3,7 @@ export OSH=/home/ariqbasyar/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="powerline-multiline"
+OSH_THEME="axin"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -100,21 +100,3 @@ source $OSH/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 alias less="less -Rc"
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
- __conda_setup="$('/home/ariqbasyar/miniconda2/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
- if [ $? -eq 0 ]; then
-     eval "$__conda_setup"
- else
-    if [ -f "/home/ariqbasyar/miniconda2/etc/profile.d/conda.sh" ]; then
-        . "/home/ariqbasyar/miniconda2/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/ariqbasyar/miniconda2/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
