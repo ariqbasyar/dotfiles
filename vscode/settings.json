@@ -1,0 +1,53 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.showStartPage": false,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "editor.cursorSurroundingLines": 5,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "python.languageServer": "Default",
+    "editor.minimap.enabled": false,
+    "java.project.importHint": false,
+    "workbench.editorAssociations": {
+        "*.md": "default"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.detectIndentation": false,
+    "[sass]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.renderWhitespace": "all",
+    "dashboard.projectData": null,
+    "dashboard.openOnStartup": "always",
+    "window.restoreWindows": "none",
+    "workbench.startupEditor": "none"
+}
