@@ -99,4 +99,8 @@ source $OSH/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+
+# GPG Auth Window for WSL 2 and VSCode
+GPG_TTY=$(tty)
+
 alias less="less -Rc"
